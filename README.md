@@ -18,9 +18,10 @@ Caligrafy is a modern MVC framework that leverages the powerful technologies tha
 - REST-ful APIs
 
 ## Are there any course requirements or prerequisites?
+- Students need to have an Apache/PHP/MySQL environment ready to use on their machines
 - Basic Knowledge of PHP
 - Basic Knowledge of MySql
-- Basic Knowledge of Caligrafy
+- Basic Knowledge of Caligrafy (Udemy Course: Introduction to Caligrafy)
 - Basic Knowledge of HTML/CSS/Javascript
 - Basic Knowledge of Vue JS
 
