@@ -27,7 +27,7 @@ Caligrafy is a modern MVC framework that leverages the powerful technologies tha
 
 ## Who this course is for:
 - Beginner PHP developers
-- Beginner Javascripot developers
+- Beginner Javascript developers
 - Beginner Vue JS developers
 - Beginner Caligrafy enthusiasts
 - Computer Science or Engineering Students
