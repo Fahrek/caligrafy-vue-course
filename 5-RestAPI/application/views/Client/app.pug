@@ -1,0 +1,13 @@
+- $variables = get_defined_vars()?? array();
+- $globals = array('app_root' => APP_CLIENT, 'service_root' => APP_SERVICE_ROOT, 'request' => request()->fetch);
+- $token = array('token'=> session('token'));
+- $home = array('home' => session('home'));
+- $keywords = array('keywords' => keywords());
+- $metadata = array('metadata' => metadata());
+- $copyright = array('copyright' => copyright());
+- $env = sizeof($variables) > 2? array_splice($variables, 2) : array();
+- $env = json_encode(array_merge($env, $globals, $token, $home, $keywords, $metadata, $copyright));
+if $app
+    - include(PUBLIC_PATH.'app/'.$app.'.php');
+else
+    p You need to define a client app in order to be able to use this service
